@@ -1,0 +1,13 @@
+{
+  "dataset": "UCI Real Estate Valuation",
+  "source_url": "https://archive.ics.uci.edu/static/public/477/real%2Bestate%2Bvaluation%2Bdata%2Bset.zip",
+  "doi": "10.24432/C5J30W",
+  "license": "CC BY 4.0",
+  "citation": "Yeh, I. (2018). Real Estate Valuation [Dataset]. UCI Machine Learning Repository.",
+  "archive_bytes": 32885,
+  "archive_sha256": "aa437bdac3ca23200258a0a58d251c0af90651aeaf7c7a07aaa714f0f9f25e2c",
+  "expected_sha256": "aa437bdac3ca23200258a0a58d251c0af90651aeaf7c7a07aaa714f0f9f25e2c",
+  "workbook": "Real estate valuation data set.xlsx",
+  "rows": 414,
+  "features": 6
+}

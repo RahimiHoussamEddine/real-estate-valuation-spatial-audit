@@ -1,0 +1,93 @@
+{
+  "dataset": "UCI Real Estate Valuation",
+  "rows": 414,
+  "target": "Y house price of unit area",
+  "target_unit": "10,000 New Taiwan dollars per ping",
+  "feature_count": 6,
+  "source_identifier_used_as_feature": false,
+  "coordinate_features": [
+    "X5 latitude",
+    "X6 longitude"
+  ],
+  "spatial_clusters": 6,
+  "cv_splits": 6,
+  "metrics": [
+    {
+      "evaluation": "spatial",
+      "model": "median",
+      "n": 414,
+      "mae": 14.002415458937199,
+      "rmse": 16.88419887047012,
+      "median_absolute_error": 12.9,
+      "r2": -0.5435444498695707
+    },
+    {
+      "evaluation": "spatial",
+      "model": "ridge",
+      "n": 414,
+      "mae": 9.159085047024943,
+      "rmse": 12.238903660898412,
+      "median_absolute_error": 7.552043866248987,
+      "r2": 0.1889581672887699
+    },
+    {
+      "evaluation": "spatial",
+      "model": "random_forest",
+      "n": 414,
+      "mae": 6.193961638222953,
+      "rmse": 8.92109323503901,
+      "median_absolute_error": 4.562474772783801,
+      "r2": 0.5690822542402028
+    },
+    {
+      "evaluation": "spatial",
+      "model": "ridge_without_coordinates",
+      "n": 414,
+      "mae": 8.666152434407955,
+      "rmse": 11.588682342484555,
+      "median_absolute_error": 7.165656926107003,
+      "r2": 0.27284609631024315
+    },
+    {
+      "evaluation": "shuffled",
+      "model": "median",
+      "n": 414,
+      "mae": 10.808212560386474,
+      "rmse": 13.70223720229022,
+      "median_absolute_error": 9.600000000000001,
+      "r2": -0.016579120799351532
+    },
+    {
+      "evaluation": "shuffled",
+      "model": "ridge",
+      "n": 414,
+      "mae": 6.2874275130294635,
+      "rmse": 8.963019619695102,
+      "median_absolute_error": 5.158050819530494,
+      "r2": 0.5650223757179262
+    },
+    {
+      "evaluation": "shuffled",
+      "model": "random_forest",
+      "n": 414,
+      "mae": 4.822005974175925,
+      "rmse": 7.421538544201303,
+      "median_absolute_error": 3.5793659515255216,
+      "r2": 0.7017735784174595
+    },
+    {
+      "evaluation": "shuffled",
+      "model": "ridge_without_coordinates",
+      "n": 414,
+      "mae": 6.50181198046481,
+      "rmse": 9.187433612002518,
+      "median_absolute_error": 5.203245974642485,
+      "r2": 0.5429679563307263
+    }
+  ],
+  "privacy": {
+    "row_level_predictions_published": false,
+    "exact_coordinates_published": false,
+    "source_ids_published": false
+  }
+}

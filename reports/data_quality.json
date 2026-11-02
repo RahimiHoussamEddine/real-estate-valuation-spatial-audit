@@ -1,0 +1,33 @@
+{
+  "source": {
+    "url": "https://archive.ics.uci.edu/static/public/477/real%2Bestate%2Bvaluation%2Bdata%2Bset.zip",
+    "archive": "real-estate.zip",
+    "sha256": "aa437bdac3ca23200258a0a58d251c0af90651aeaf7c7a07aaa714f0f9f25e2c",
+    "bytes": 32885,
+    "workbook": "Real estate valuation data set.xlsx"
+  },
+  "rows": 414,
+  "feature_count": 6,
+  "missing_cells": 0,
+  "duplicate_source_ids": 0,
+  "duplicate_feature_rows": 20,
+  "unique_feature_rows": 394,
+  "target_summary": {
+    "mean": 37.980193236714975,
+    "first_quartile": 27.7,
+    "median": 38.45,
+    "third_quartile": 46.6,
+    "unit": "10,000 New Taiwan dollars per ping"
+  },
+  "coordinate_bounds_rounded_3dp": {
+    "latitude_min": 24.932,
+    "latitude_max": 25.015,
+    "longitude_min": 121.474,
+    "longitude_max": 121.566
+  },
+  "modeling": {
+    "source_identifier_in_features": false,
+    "exact_coordinates_published": false,
+    "row_level_predictions_published": false
+  }
+}
